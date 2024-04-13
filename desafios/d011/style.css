@@ -1,16 +1,54 @@
 @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 
+* {
+    margin:0px;
+    padding:0px;
+}
+
 header {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 50px;
+}
+
+header > h1 {
+    padding-top: 40px;
+    font-size: 10vw;
+    font-family: 'Passion One', 'cursive';
+
+}
+
+header > p {
+    font-size: 1em;
+    padding:  10px 0px 50px 0px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
+p {
+    font-family: 'sriracha';
+}
+
+p#paragrafo1 {
+    font-size: 3.5vw;
+}
