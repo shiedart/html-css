@@ -20,6 +20,7 @@ header > h1 {
     padding-top: 40px;
     font-size: 10vw;
     font-family: 'Passion One', 'cursive';
+    font-variant: small-caps;
 
 }
 
@@ -28,6 +29,7 @@ header > p {
     padding:  10px 0px 50px 0px;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
     
 }
 
@@ -47,8 +49,51 @@ a:visited {
 
 p {
     font-family: 'sriracha';
+    font-size: 3.5vw;
+    color: red;
+    padding-top: 5vw;
+    padding-left: 1.5vw;
 }
 
-p#paragrafo1 {
-    font-size: 3.5vw;
+section.normal > p {
+    color: black;
+    padding-bottom: 1.5em;
+}
+
+section.imagem  {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    padding-left: 1.5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    
+}
+
+section.imagem#imagem01 {
+    background-image: url(imagens/background001.jpg);
+
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+
+}
+
+section.imagem#imagem02 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
