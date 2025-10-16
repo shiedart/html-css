@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        div.container {
+            background-color: blueviolet;
+            display: flex;
+            flex-flow: row wrap;
+            height: 400px;
+            align-items: flex-start;
+        }
+
+        div.item {
+            background-color: black;
+            border: 1px solid white;
+            color: aqua;
+            text-align: center;
+            padding: 20px;
+        }
+
+        div#ia {
+            align-self: flex-start;
+        }
+
+        div#ib {
+            align-self: auto;
+        }
+
+        div#ic {
+            
+        }
+
+        div#id {
+            align-self: center;
+        }
+
+        div#ie {
+            align-self: flex-end;
+        }
+
+        div#if {
+            
+        }
+
+        div#ig {
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="ia">A</div>
+        <div class="item" id="ib">B</div>
+        <div class="item" id="ic">C</div>
+        <div class="item" id="id">D</div>
+        <div class="item" id="ie">E</div>
+        <div class="item" id="if">F</div>
+        <div class="item" id="ig">G</div>
+    </div>
+</body>
+</html>
